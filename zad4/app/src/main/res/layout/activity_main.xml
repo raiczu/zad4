@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5DC">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gra w kości Autor Denis Stępień"
+        android:textColor="#FFFFFF"
+        android:background="#A52A2A"
+        android:textSize="26sp"/>
+
+    <Button
+        android:id="@+id/rolldice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kliknij Aby Rzucić Kosćia"
+        android:background="#D2691E"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/dice1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/dice2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/dice3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/dice4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/dice5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="?"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rollResultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Wynik aktualnego losowania: 0"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/gameResultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Wynik gry: 0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rollCountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Liczba rzutów: 0"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#D2691E"
+        android:text="Resetuj Wynik"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
